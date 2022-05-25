@@ -1,0 +1,83 @@
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+h1{
+    position: fixed;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+}
+h2{
+    position: fixed;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    top: 60px;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+}
+nav{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+}
+main{
+    position: fixed;
+    background-color: #906b69;
+    top: 100px;
+    left: 320px;
+    right: 0;
+    bottom: 0;
+}
+main section{
+    position: absolute;
+    width: 50%;
+    display: inline-block;
+}
+#modeloOSI{
+    top: 100px;
+    left: 320px;
+    height: 100%;
+    bottom: 0;
+    width: 50%;
+    background-color: yellow;
+}
+div{
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.aplicacion{
+    background-color: #41af7e;
+}
+.transporte{
+    background-color: #3688af;
+}
+.internet{
+    background-color: #af7333;
+}
+.interfaz{
+    background-color: #af30a9;
+}
+.ocultar{
+    visibility: hidden;
+}
