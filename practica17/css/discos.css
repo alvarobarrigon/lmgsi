@@ -1,0 +1,47 @@
+body{
+    background: repeat-x black scroll;
+    background-size: 100% 100px;
+    color:white;
+    font-size: 1em;
+
+}
+h1{
+    background: rgba(0,0,0,50%);
+    font-family: 'Montserrat', 'Neuton', sans-serif;
+}
+h2{
+    background: grey;
+    font-family: 'Montserrat', 'Neuton', sans-serif;
+}
+h1+h2{
+    background: rgba(0,0,0,50%);
+
+}
+small{
+    background: white;
+    color: black;
+    font-size: 0.5em;
+    font-family: 'Montserrat', 'Neuton', sans-serif;
+}
+p{
+    font-size: 1.5em;
+}
+img{
+    margin: auto;
+    display: block;
+    width: 25%;
+    border: 2px solid white;
+
+}
+li{
+    list-style-image: url("../img/song-icon.png");
+    font-size: 1.5em;
+}
+a{
+    color: yellow;
+}
+a:hover{
+    background: yellow;
+    color: black;
+    text-decoration: none;
+}

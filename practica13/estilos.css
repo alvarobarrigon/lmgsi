@@ -1,0 +1,57 @@
+body{
+    margin:0;
+}
+.linea{
+    position:relative;
+    width:100%;
+    height:200px;
+    border-bottom: 3px solid #354372;
+}
+
+.guitarra{
+    position:relative;
+    float:left;
+    width:29%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    height:200px;
+}
+
+.explicacion{
+    position:relative;
+    float:left;
+    width:70%;
+    height:200px;
+}
+
+#g01{
+    background-image:url(img/blackie.png) ;
+}
+#g02{
+    background-image:url(img/frankestrat.png) ;
+}
+#g03{
+    background-image:url(img/gibson-eds-1275.png) ;
+}
+#g04{
+    background-image:url(img/gibsonsg.png) ;
+}
+#g05{
+    background-image:url(img/lesPaul.png) ;
+}
+#g06{
+    background-image:url(img/lucille.png) ;
+}
+#g07{
+    background-image:url(img/micawber.png) ;
+}
+#g08{
+    background-image:url(img/monterey.png) ;
+}
+#g09{
+    background-image:url(img/numberone.png) ;
+}
+#g10{
+    background-image:url(img/oldboy.png) ;
+}

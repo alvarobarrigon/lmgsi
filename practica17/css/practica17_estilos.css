@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Neuton:400,400i,700&display=swap');
+body{
+    background: url("../img/fondo-guitarra.jpg") repeat-y #b09f85 fixed;
+    margin-left:280px;
+    font-size: 1em;
+    font-family: 'Montserrat','Neuton',sans-serif;
+    background-size: 40% ;
+}
+h1{
+    text-align:center;
+    background: #d7676f;
+    color:white;
+    font-size: 2em;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color:white;
+    background: #5eb5ba;
+    font-size: 1.5em;
+}
+h3{
+    color:white;
+    background: #dda752;
+    margin: 0;
+}
+a{
+    color: white;
+}
+h3:hover{
+    background: black;
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+h3:hover+p{
+    background: black;
+}
+strong{
+    color: #5f1805;
+}
+h3+p{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.25em;
+    font-weight: bold;
+}

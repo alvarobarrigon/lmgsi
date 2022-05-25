@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700&display=swap');
+
+body{
+    font-family: "Quattrocento", "Quattrocento Sans", sans-serif;
+    font-size: 2em;
+}
+
+#principal{
+    background-color: #b9b6b6;
+}
+
+#rock,#pop{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: rgb(63,110,128);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    color: hsl(194,55%,66%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    background-color: #333232;
+    color: white;
+}
+
+em{
+    color: #4c94a9;
+    font-style: normal;
+}
+
+#lista strong{
+    color: #aa4326;
+}
+
+#lista strong.artista {
+    color: #34802f;
+}
+
+#lista strong.cancion {
+    color: #713080;
+}
+
+
+q{
+    color: #4c94a9;
+    font-style: italic;
+}
+
+address{
+    color: grey;
+    text-align: right;
+    font-style: italic;
+}
+h3+p{
+    letter-spacing: 0.75em;
+    font-weight: bold;
+    font-family: "Quattrocento Sans",sans-serif;
+}

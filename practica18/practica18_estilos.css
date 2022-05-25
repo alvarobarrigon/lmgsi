@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cantarell:400,700&display=swap');
+body{
+    font-family: Cantarell, sans-serif;
+    background: url("img/parquet.jpg") #9f6d38;
+    margin: 50px;
+    font-size: 1em;
+}
+h1{
+    font-family: 'Anton',sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 250px;
+    color: white;
+    background: linear-gradient(to right,#042b47,#660c26);
+    margin: 0;
+}
+h2{
+    font-family: 'Anton',sans-serif;
+    font-size: 6em;
+    text-transform: uppercase;
+    color: #042b47;
+    text-align: right;
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+li{
+    list-style: upper-roman;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+ol{
+    margin: 0;
+    padding-bottom: 3em;
+
+}
+small{
+    color: #2c6624 ;
+    border: 1px dotted #2c6624;
+    font-weight: 700;
+}
+div{
+    width: 50%;
+    display: inline-block;
+}
+section{
+    padding: 0 20px;
+}
+li:first-of-type{
+    font-weight: 700;
+}
+.tabla{
+    background: rgba(255,255,255,.50);
+}
+
+#oeste {
+    background: url("img/lebron.png") #e8a2b6 left no-repeat;
+    background-size: contain;
+    text-align: right;
+}
+#oeste h2{
+    color: #042b47;
+}
+#oeste h3{
+    color: white;
+    background: #042b47;
+    text-align: center;
+    margin: 0;
+}
+
+#este{
+    background: url("img/antetokounmpo.png")#b0d8f5 right no-repeat;
+    background-size: contain;
+}
+#este h2{
+    color: #660c26;
+    text-align: left;
+}
+#este h3{
+    color: white;
+    background: #660c26;
+    text-align: center;
+    margin: 0;
+}
+
