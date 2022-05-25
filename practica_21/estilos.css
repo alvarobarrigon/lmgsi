@@ -1,0 +1,16 @@
+table,tr,th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+img{
+    width: 500px;
+}
+td{
+    width: 500px;
+}
+address{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 1px;
+}

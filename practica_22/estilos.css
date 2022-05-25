@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+body{
+    font-family: 'Monstserrat',sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    padding: 10px;
+}
+th{
+    background: #5f5250;
+    color: white;
+}
+tr:first-of-type th,tr:last-of-type th{
+    background: #3b3b3b;
+    background-size: auto 100px;
+}
+[type="text"],[type="password"]{
+    background: #999999 no-repeat 505px center;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 10px 40px 10px 10px;
+    outline: none;
+    width: 500px;
+}
+[type="text"]{
+    background-image: url("practica22/img/t.png");
+}
+[type="password"]{
+    background-image: url("practica22/img/candado.png");
+}
+[type="text"]:focus,[type="password"]:focus{
+    background-color: #ff5454;
+}
+/*input:checked+label{
+    color: #ff5454;
+}*/
+[type="radio"]:checked+label,[type="checkbox"]:checked+label{
+    color: #ff5454;
+}
+[type="radio"],[type="checkbox"] {
+    display: none;
+}
+[type="checkbox"]+label{
+    background: url("practica22/img/off.png") no-repeat left;
+    padding: 0 5px 0 50px;
+    background-size: auto 20px;
+    margin-bottom: 15px;
+}
+[type="checkbox"]:checked+label{
+    background-image: url("practica22/img/on.png");
+}
+[type="radio"]+label{
+    background: url("practica22/img/radio1.png") no-repeat left;
+    padding: 0 5px 0 50px;
+    background-size: auto 20px;
+    margin-bottom: 15px;
+}
+[type="radio"]:checked+label{
+    background-image: url("practica22/img/radio2.png");
+}
+[type="checkbox"]{
+    background-image: url("practica22/img/off.png");
+}
+button{
+    color: white;
+    background: #3b3b3b;
+    border: 3px solid white;
+    border-radius: 10px;
+}

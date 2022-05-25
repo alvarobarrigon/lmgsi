@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+<form>
+<table>
+    <tr>
+        <td colspan="2">
+            <h1>Alta de Usuario</h1>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <fieldset class="user">
+            <label for="nombre">Nombre<span>*</span></label>
+            <input type="text" name="nombre" id="nombre" required>
+            </fieldset>
+        </td>
+        <td>
+            <fieldset class="user">
+            <label for="apellido">Apellido<span>*</span></label>
+            <input type="text" name="apellido" id="apellido" required>
+            </fieldset>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <fieldset  class="email">
+            <label for="email">E-mail<span>*</span></label>
+            <input type="email" name="email" id="email" required>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <fieldset class="contra">
+            <label for="contra">Contraseña<span>*</span></label>
+            <input type="password" name="contra" id="contra" required>
+            </fieldset>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <fieldset class="sexo">
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="sexo" id="hombre" value="Hombre">
+            </fieldset>
+        </td>
+        <td>
+            <fieldset class="sexo">
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="sexo" id="mujer" value="Mujer">
+            </fieldset>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <fieldset>
+            <input type="checkbox" name="tipo" id="familiar" value="Familiar">
+            <label for="familiar">Familiar</label><br>
+            <input type="checkbox" name="tipo" id="trabajador" value="Trabajador">
+            <label for="trabajador">Trabajador</label><br>
+            <input type="checkbox" name="tipo" id="socio" value="Socio">
+            <label for="socio">Socio</label>
+            </fieldset>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <fieldset class="edad">
+            <label for="edad">Edad<span>*</span></label>
+            <input type="number" name="edad" id="edad" required min="18" max="65" step="1">
+            </fieldset>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <fieldset>
+                <button>ALTA</button>
+            </fieldset>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

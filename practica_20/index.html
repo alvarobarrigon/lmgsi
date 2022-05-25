@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+</head>
+<body>
+<h1>Almacenar nombres de usuario</h1>
+<form action="http://profesorflipado.com/practicas/lmsgi/practica20/grabarUsuario.php"
+        method="post">
+    <label for="usuario">Nombre de usuario</label>
+    <input type="text" name="usuario" id="usuario" placeholder="Nombre de Usuario"><br><br>
+
+    <input type="checkbox" name="casado" id="casado" value="si">
+    <label for="casado">¿Estás casado/a?</label><br><br>
+
+    <input type="radio" name="modulo" value="marcas" id="lgmsi">
+    <label for="lgmsi">Lenguaje de marcas</label><br>
+    <input type="radio" name="modulo" value="base de datos" id="gbd">
+    <label for="gbd">Base de datos</label><br>
+    <input type="radio" name="modulo" value="redes" id="par">
+    <label for="par">Redes</label><br>
+    <button>Añadir</button>
+</form>
+</body>
+</html>

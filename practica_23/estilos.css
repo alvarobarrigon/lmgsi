@@ -1,0 +1,103 @@
+body{
+    font-family: sans-serif;
+    background: #3a3b3b;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+p{
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 0;
+}
+#capa{
+    width: 600px;
+    height: 700px;
+    display: block;
+    margin: auto;
+    background: url("img/k2.jpg") no-repeat white;
+    background-size: contain;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+[type="text"],[type="password"]{
+    background: #cccccc no-repeat;
+    color: #490902;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    width: 450px;
+    height: 50px;
+    margin: 10px 50px;
+    font-size: 1.2em;
+    padding-left: 50px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+[type="text"]{
+    background-image: url("img/user2.png");
+}
+[type="password"]{
+    background-image: url("img/candado.png");
+}
+[type="checkbox"]{
+    background-image: url("img/checkbox0.png");
+}
+[type="radio"],[type="checkbox"] {
+    display: none;
+}
+[type="checkbox"]+label{
+    background: url("img/checkbox0.png") no-repeat left;
+    color: #cccccc;
+    padding: 0 5px 0 50px;
+    background-size: auto 20px;
+    margin: 0 0 20px 50px;
+}
+[type="checkbox"]:checked+label{
+    background-image: url("img/checkbox1.png");
+}
+[type="radio"]+label{
+    background: url("img/radio0.png") no-repeat left;
+    padding: 0 5px 0 50px;
+    background-size: auto 20px;
+}
+[type="radio"]:checked+label{
+    background-image: url("img/radio1.png");
+}
+
+fieldset{
+    margin: 50px;
+    color: #cccccc;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+legend{
+    text-align: center;
+}
+#botones{
+    margin-left: 160px;
+}
+button{
+    background: #ff5454;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+}
+button:hover,#twitter:hover{
+    background-color: #ff081c;
+}
+#twitter{
+    background: url("/img/twitter.png") no-repeat left #ff5454;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+}

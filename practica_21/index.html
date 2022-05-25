@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Jornadas de seguridad</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th colspan="2">
+            <h1>Registro de asistentes a las Jornadas de Seguridad</h1>
+        </th>
+    </tr>
+    <tr>
+        <td rowspan="2">
+            <img src="cartel.jpg" alt="cartel">
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <th colspan="2">
+            <h1>Registro de asistentes a las Jornadas de Seguridad</h1>
+        </th>
+    </tr>
+    <tr>
+        <td rowspan="3" >
+            <img src="cartel.jpg" alt="cartel">
+        </td>
+        <td>
+            <form method="get" action="http://jorgesanchez.net/practicas/iaw/practicaR01/recogida.php">
+                <label for="dni">DNI *</label>
+                <input type="text" name="dni" id="dni" required maxlength="9" pattern="[XYZ0-9][0-9]{7}[A-Za-z]$"><br>
+                <label for="nombre">Nombre *</label>
+                <input type="text" name="nombre" id="nombre" required><br>
+                <label for="apellidos">Apellidos *</label>
+                <input type="text" name="apellidos" id="apellidos" required><br>
+                <label for="fecha">Fecha de nacimiento</label>
+                <input type="date" name="fecha" id="fecha" value="2000-01-01"><br>
+                <table>
+                    <tr>
+                    <td>
+                        <label for="comunidad">Comunidad Autónoma de Procedencia</label>
+                        <select name="comunidad" id="comunidad">
+                            <option value="and">Andalucía</option>
+                            <option value="ast">Asturias</option>
+                            <option value="ara">Aragón</option>
+                            <option value="can">Cantabria</option>
+                            <option value="cman">Castilla la Mancha</option>
+                            <option value="cleon">Castilla y León</option>
+                            <option value="cat">Cataluña</option>
+                            <option value="ceu">Ceuta</option>
+                            <option value="ext">Extremadura</option>
+                            <option value="gal">Galicia</option>
+                            <option value="ibal">Islas Baleares</option>
+                            <option value="ican">Islas Canarias</option>
+                            <option value="rio">La Rioja</option>
+                            <option value="mad">Madrid</option>
+                            <option value="mel">Melilla</option>
+                            <option value="mur">Murcia</option>
+                            <option value="nav">Navarra</option>
+                            <option value="vas">País Vasco</option>
+                            <option value="val">Valencia</option>
+                        </select><br>
+                        <input type="radio" name="tipo" id="boton1" value="Centro Educativo">
+                        <label for="boton1">Centro educativo</label><br>
+                        <input type="radio" name="tipo" id="boton2" value="Institución Pública">
+                        <label for="boton1">Intitución pública</label><br>
+                        <input type="radio" name="tipo" id="boton3" value="Empresa Privada">
+                        <label for="boton1">Empresa privada</label><br>
+                        <input type="radio" name="tipo" id="boton4" value="Otros">
+                        <label for="boton1">Otros / Independientes</label><br>
+                    </td>
+                    <td>
+                        <label for="nombreins">Nombre de la institución</label><br>
+                        <input type="text" name="nombreins" id="nombreins"><br>
+                        <label for="dirins">Direccion de la institución</label><br>
+                        <input type="text" name="dirins" id="dirins" value="tipo calle, nº"><br>
+                    </td>
+                    </tr>
+                </table>
+        </td>
+    </tr>
+    <table>
+    <tr>
+        <td>
+            <fildset>
+                <label for="comunidad">Comunidad Autónoma de Procedencia</label>
+                <select name="comunidad" id="comunidad">
+                    <option value="and">Andalucía</option>
+                    <option value="ast">Asturias</option>
+                    <option value="ara">Aragón</option>
+                    <option value="can">Cantabria</option>
+                    <option value="cman">Castilla la Mancha</option>
+                    <option value="cleon">Castilla y León</option>
+                    <option value="cat">Cataluña</option>
+                    <option value="ceu">Ceuta</option>
+                    <option value="ext">Extremadura</option>
+                    <option value="gal">Galicia</option>
+                    <option value="ibal">Islas Baleares</option>
+                    <option value="ican">Islas Canarias</option>
+                    <option value="rio">La Rioja</option>
+                    <option value="mad">Madrid</option>
+                    <option value="mel">Melilla</option>
+                    <option value="mur">Murcia</option>
+                    <option value="nav">Navarra</option>
+                    <option value="vas">País Vasco</option>
+                    <option value="val">Valencia</option>
+                </select><br>
+                <legend>Tipos de instituciones</legend>
+                <input type="radio" name="tipo" id="centroeducativo" value="Centro Educativo">
+                <label for="boton1">Centro educativo</label><br>
+                <input type="radio" name="tipo" id="institucionpublica" value="Intitucion Publica">
+                <label for="institucionpublica">Intitución pública</label><br>
+                <input type="radio" name="tipo" id="empresaprivada" value="Empresa Privada">
+                <label for="empresaprivada">Empresa privada</label><br>
+                <input type="radio" name="tipo" id="otro" value="otro">
+                <label for="otro">Otros / Independientes</label><br>
+            </fildset>
+        </td>
+        <td>
+        </td>
+    </tr>
+    </table>
+    <tr>
+        <td>
+            <label>Enviar datos</label>
+            <button>Enviar</button>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <th colspan="2">
+            <address>Centro Don Bosco, paseo Don Bosco 1, 34190, Villamuriel de Cerrato <br>
+            Teléfono: 979 77 72 70
+            </address>
+        </th>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td>sadf</td>
+        <td>sadf</td>
+        <td>sadf</td>
+        <td>sadf</td>
+    </tr>
+    <tr>
+        <td>sadf</td>
+        <td>sadf</td>
+        <td>sadf</td>
+        <td>sadf</td>
+    </tr>
+</table>
+</body>
+</html>
